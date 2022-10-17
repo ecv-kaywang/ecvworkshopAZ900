@@ -131,15 +131,15 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
 ## Lab 2 : 透過 Azure Storeage 建立靜態網站
 #### 學習目標 :
-* 建立 Azure Storeage account
-* 啟用 Azure cloud Shell
+* 建立 Azure Storage account
+* 啟用 Azure Cloud Shell
 * 透過 git 下載 index.html
 * 在 Azure Storage Account 啟用靜態網站
 
 #### 架構圖：
 ![](https://i.imgur.com/QuaaGay.jpg)
 
-### 新增 Azure Storeage account
+### 新增 Azure Storage account
 * 搜尋`儲存體帳戶`
 
 ![](https://i.imgur.com/PtCZufo.png)
@@ -176,7 +176,7 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
 ![](https://i.imgur.com/rF6YBmo.png)
 
-###  啟用 Azure cloud Shell
+###  啟用 Azure Cloud Shell
 * 點選右上角圖示
 
 ![](https://i.imgur.com/IBnqo4m.png)
@@ -198,7 +198,7 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 ![](https://i.imgur.com/PX0fxce.png)
 
 ### 透過 git 下載 index.html
-* 在 cloud shell 命令提示字元下輸入：
+* 在 Cloud Shell 命令提示字元下輸入：
 
 ```
 git clone https://github.com/ecv-kaywang/ecvworkshopAZ900.git
@@ -210,7 +210,7 @@ git clone https://github.com/ecv-kaywang/ecvworkshopAZ900.git
 cd ecvworkshopAZ900/
 code .
 ```
-* 透過 cloud shell 編輯器右上角打開選單，關閉編輯器
+* 透過 Cloud Shell 編輯器右上角打開選單，關閉編輯器
 
 ![](https://i.imgur.com/x4Ag2nA.png)
 
