@@ -129,7 +129,7 @@ Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
 
 
-## Lab 2 : 透過 Azure Storeage 建立靜態網站
+## Lab 2 : 透過 Azure Storage 建立靜態網站
 #### 學習目標 :
 * 建立 Azure Storage account
 * 啟用 Azure Cloud Shell
